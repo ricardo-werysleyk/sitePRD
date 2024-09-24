@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Equipe de Desenvolvimento de Foguetes Acadêmicos - Competições, Inovação e Tecnologia.">
+    <title>Potiguar Rocket Design</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Potiguar Rocket Design</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#diretorias">Diretorias</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Principal -->
+    <main>
+        <!-- Seção Sobre -->
+        <section id="sobre" class="section">
+            <div class="container">
+                <h2>Quem Somos</h2>
+                <p>A equipe de desenvolvimento de foguetes acadêmicos participa de competições de foguetes e nano satélites, desenvolvendo inovações científicas e tecnológicas. Somos organizados em várias diretorias especializadas para garantir eficiência em todos os nossos projetos.</p>
+            </div>
+        </section>
+
+        <!-- Seção de Diretorias e Setores -->
+        <section id="diretorias" class="section">
+            <div class="container">
+                <h2>Diretorias e Setores</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Diretoria de Projetos</h3>
+                        <p>Responsável pelo desenvolvimento técnico de foguetes e satélites. Contém setores como Propulsão e Motores, Eletrônica e Controle, Ejeção de Paraquedas, Estruturas e Aerodinâmica.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Diretoria de Ensino</h3>
+                        <p>Focada na capacitação interna da equipe e no desenvolvimento de conhecimento teórico e prático para os membros e divulgação científica nas redes de ensino fundamental e médio.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Diretoria de Gestão de Pessoas</h3>
+                        <p>Gerencia o bem-estar e o desenvolvimento pessoal dos membros da equipe, organizando processos seletivos e eventos internos.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Diretoria de Comunicação e Negócios</h3>
+                        <p>Cuida da imagem pública da equipe, marketing, redes sociais e captação de parcerias e patrocínios.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Projetos -->
+        <section id="projetos" class="section">
+            <div class="container">
+                <h2>Projetos e Inovações</h2>
+                <p>Veja alguns dos nossos projetos mais recentes:</p>
+                <div class="grid">
+                    <div class="project-card">
+                        <h3>Foguete XYZ</h3>
+                        <p>Desenvolvido para a competição nacional, o foguete XYZ apresentou inovações em sistemas de propulsão e ejeção de paraquedas.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Nano Satélite ABC</h3>
+                        <p>Nosso nano satélite ABC trouxe avanços na comunicação por LoRa e sensores de alta precisão.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Seção de Contato -->
+    <footer id="contato" class="section">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para saber mais sobre nossos projetos ou para possíveis parcerias.</p>
+            <form action="send_email.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </footer>
+
+</body>
+</html>
